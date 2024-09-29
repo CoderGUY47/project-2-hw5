@@ -7,6 +7,11 @@
 |         -common START-          |
 |>>>>>>>===================<<<<<<<|
 */
+*
+{
+    padding: 0;
+    margin: 0;
+}
 .common-button
 {
     display: flex;
@@ -36,6 +41,47 @@
     top: -16.5px;
     left: -45.5px;
     border: 2px solid #ffffff;
+}
+.title h4
+{
+    position: relative;
+    padding-bottom: 18px;
+    font-size: 18px;
+    color: #e5745d;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+    text-align: center;
+}
+.title h4::after 
+{
+    position: absolute;
+    content: "";
+    top: 8px;
+    left: 41%;
+    width: 42px;
+    height: 2px;
+    background: #e5745d;
+}
+.title h4::before 
+{
+    position: absolute;
+    content: "";
+    top: 6px;
+    left: 44%;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #e5745d;
+}
+.title h2
+{
+    width: 500px;
+    font-size:48px;
+    color: #00413d;
+    font-weight: 400;
+    font-family: "Vollkorn", serif;
+    text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -173,6 +219,67 @@
 /* 
 |>>>>>>>===================<<<<<<<|
 |       -banner FINISHED-         |
+|>>>>>>>===================<<<<<<<|
+*/
+/*-------------------------------------------------------------------------*/
+/* 
+|>>>>>>>===================<<<<<<<|
+|        -service START-          |
+|>>>>>>>===================<<<<<<<|
+*/
+.service
+{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.service .title
+{
+    padding-bottom: 40px;
+}
+.service .card
+{
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    width: 100% !important;
+    height: 365px;
+    box-shadow: rgba(150, 150, 161, 0.2) 10px 15px 20px 0px;
+    border-style: none;
+}
+.service .card img
+{
+    width: 20%;
+}
+.service .card .card-body
+{
+    padding: 0;
+}
+.service .card .card-title
+{
+    padding-top: 26px;
+    color: #00413d;
+    font-size: 24px;
+    font-family: "Vollkorn", serif;
+    font-weight: 700;
+}
+.service .card .card-text
+{
+    width: 250px;
+    color: #00413d;
+    line-height: 24px;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+}
+.service .card .card-body i
+{
+    font-size: 24px;
+    color: #00413d;
+}
+/* 
+|>>>>>>>===================<<<<<<<|
+|       -service FINISHED-        |
 |>>>>>>>===================<<<<<<<|
 */
 /*-------------------------------------------------------------------------*/
