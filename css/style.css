@@ -12,6 +12,10 @@
     padding: 0;
     margin: 0;
 }
+.box
+{
+    display: flex;
+}
 .common-button
 {
     display: flex;
@@ -24,7 +28,6 @@
 }
 .common-button a
 {
-    position: relative;
     position: absolute;
     font-family: "Jost", sans-serif;
     color: #ffffff;
@@ -232,10 +235,10 @@
     padding-top: 200px;
     padding-bottom: 100px;
 }
-.service .title
+/* .service .title
 {
     padding-bottom: 40px;
-}
+} */
 .service .card
 {
     padding-top: 50px;
@@ -280,6 +283,132 @@
 /* 
 |>>>>>>>===================<<<<<<<|
 |       -service FINISHED-        |
+|>>>>>>>===================<<<<<<<|
+*/
+/*-------------------------------------------------------------------------*/
+/* 
+|>>>>>>>===================<<<<<<<|
+|          -about START-          |
+|>>>>>>>===================<<<<<<<|
+*/
+
+.about img 
+{
+    object-fit: cover;
+}
+.about .box img 
+{
+    width: 384px;
+    height: 460px;
+}
+.about .box
+{
+    column-gap: 20px;
+}
+.about .second-part
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about .second-part img
+{
+    width: 170px;
+    height: 220px;
+}
+.about .title h4
+{
+    position: relative;
+    padding-bottom: 18px;
+    left: 9.5%;
+    font-size: 18px;
+    color: #e5745d;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+    text-align: left;
+}
+.about .title h4::after 
+{
+    left: -9.2%;
+}
+.about .title h4::before 
+{
+    left: -2.5%;
+}
+.about .title h2
+{
+    width: 525px;
+    font-size: 48px;
+    color: #00413d;
+    font-weight: 400;
+    font-family: "Vollkorn", serif;
+    text-align: left;
+    margin-left: 0;
+}
+.about p
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    color: #00534d;
+}
+
+.about .common-button a::after 
+{
+    left: -35.4px;
+}
+/* 
+|>>>>>>>===================<<<<<<<|
+|         -about FINISHED-        |
+|>>>>>>>===================<<<<<<<|
+*/
+/*-------------------------------------------------------------------------*/
+/* 
+|>>>>>>>===================<<<<<<<|
+|       -progressbar START-       |
+|>>>>>>>===================<<<<<<<|
+*/
+.outter-box
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 120px;
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+    box-shadow: rgba(150, 150, 161, 0.216) 0px 20px 20px 0px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 24px;
+}
+.inner-box
+{
+    display: flex;
+    width: 170px;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    border: 9px solid #E5745D; 
+    border-radius: 50%;
+}
+.inner-box h3
+{
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Vollkorn", serif;
+    color: #e5745d;
+}
+.outter-box h2
+{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Vollkorn", serif;
+    color: #00534d;
+}
+/* 
+|>>>>>>>===================<<<<<<<|
+|     -progressbar FINISHED-      |
 |>>>>>>>===================<<<<<<<|
 */
 /*-------------------------------------------------------------------------*/
