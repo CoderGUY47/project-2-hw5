@@ -1,2 +1,14 @@
   font-family: "Jost", sans-serif;
   font-family: "Vollkorn", serif;
+
+
+          <!--The r attribute defines the radius of the circle
+        The cx and cy attributes define the x- and y-axes center of the circle. If they are omitted, the circle's center is set to (0,0)
+        The fill attribute defines the color of the circle-->
+
+                  <!-- <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="bar" r="55" cx="90" cy="90"/>
+            <circle class="path path-1" r="55" cx="90" cy="90"/>
+          </svg> -->
+
+          for stroke-dashoffset: 130; 100%
