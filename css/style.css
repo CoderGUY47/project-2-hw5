@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
-
+::-webkit-scrollbar 
+{
+    width: 13px;
+}
+::-webkit-scrollbar-track 
+{
+    background-color: #037067;
+    border-radius: 10px;
+    margin-block: 10rem;
+}
+::-webkit-scrollbar-thumb 
+{
+    background: #e57058;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background: #ed5330;
+}
 
 /*-------------------------------------------------------------------------*/
 /* 
@@ -654,6 +672,48 @@ for box shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255
 /* 
 |>>>>>>>===================<<<<<<<|
 |       -project FINISHED-        |
+|>>>>>>>===================<<<<<<<|
+*/
+/*-------------------------------------------------------------------------*/
+/* 
+|>>>>>>>===================<<<<<<<|
+|        -portfolio START-        |
+|>>>>>>>===================<<<<<<<|
+*/
+.portfolio ul
+{
+    display: flex;
+    column-gap: 30px;   
+    color: #00413d;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Vollkorn", serif;
+    justify-content: center;
+    padding-left: 0;
+}
+.portfolio li
+{
+    position: relative;
+}
+.portfolio li::before 
+{               
+    position: absolute;    
+    content: "";                              
+    bottom: -2.5px;                                          
+    left: 0;                         
+    width: 0; /**in default 100% for measurement ,but having a hover effect the width will (0/0px)**/
+    height: 3px;              
+    border-radius: 5px;                          
+    background-color: #e5745d;  
+    transition: 0.7s;     
+}
+.portfolio li:hover::before
+{
+    width: 100%;
+} 
+/* 
+|>>>>>>>===================<<<<<<<|
+|      -portfolio FINISHED-       |
 |>>>>>>>===================<<<<<<<|
 */
 /*-------------------------------------------------------------------------*/

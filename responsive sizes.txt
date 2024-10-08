@@ -1,0 +1,9 @@
+
+
+
+extra small        => 320  px to 575  px,
+small              => 576  px to 767  px,  SM 
+medium             => 768  px to 991  px,  MD
+large              => 992  px to 1199 px,  LG 
+extra large        => 1200 px to 1399 px,  XL 
+extra extra large  => 1400 px              XXL
