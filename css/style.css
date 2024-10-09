@@ -711,6 +711,70 @@ for box shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255
 {
     width: 100%;
 } 
+.portfolio .card
+{
+    position: relative;
+    width: 100% !important;
+    height: 520px;
+    box-shadow: rgba(150, 150, 161, 0.2) 10px 15px 20px 0px;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.portfolio .card-body
+{
+    background: #00413d;
+    color: #ffffff;
+    border-radius: 0 0 7px 7px;
+}
+.portfolio .card-title
+{
+    font-size: 24px;
+    font-family: "Vollkorn", serif;
+}
+.portfolio .card-text
+{
+    font-size: 16px;
+    opacity: 0.7;
+}
+.portfolio .badge 
+{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 40px;
+    border-radius: 50%;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin-left: 85%;
+    margin-bottom: -12.5%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+.portfolio .card:hover .badge
+{
+    opacity: 1;
+}
+.portfolio .badge i 
+{
+    color: #e57058;
+    font-size: 20px;
+    margin-bottom: -12.5%;
+}
+.portfolio img
+{
+    margin-top: -2.5%;
+    height: 420px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+.portfolio img:hover 
+{
+    opacity: 0.9;
+    scale: 1.1;
+}
 /* 
 |>>>>>>>===================<<<<<<<|
 |      -portfolio FINISHED-       |
