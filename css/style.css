@@ -1092,10 +1092,167 @@ for box shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255
 |          -blog START-           |
 |>>>>>>>===================<<<<<<<|
 */
-
+.blog
+{
+    padding-bottom: 100px;
+}
+.blog .project-title h4
+{
+    margin: 0 auto;
+    left: 2.5%;
+}
+.blog .project-title h2
+{
+    margin: 0 auto;
+    margin-top: -10px;
+}
+.blog .project-title h4::after 
+{
+    left: 40.5%;
+    top: 9px;
+}
+.blog .project-title h4::before 
+{
+    top: 6.5px;
+    left: 43.5%;
+}
+.blog .box 
+{
+    justify-content: space-between;
+}
+.blog .card
+{
+    margin-top: 50px;
+    width: 100% !important;
+    box-shadow: rgba(150, 150, 161, 0.2) 10px 15px 20px 0px;
+    border-style: none;
+    cursor: pointer;
+}
+.blog .card-body
+{
+    position: relative;
+    padding: 30px;
+}
+.blog .card-body .card-title-2
+{
+    position: absolute;
+    left: 74.4%;
+    top: 11.5%;
+    margin-right: 0;
+    color: #12867f;
+    font-size: 14px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+}
+.blog .card .card-title
+{
+    color: #e5745d;
+    font-size: 14px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+}
+.blog .card .card-text
+{
+    color: #00413d;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Vollkorn", serif;
+}
+.blog .card .card-text-2
+{
+    width: 300px;
+    color: #12867f;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+}
+.blog .card-box
+{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    transition: 0.4s;
+}
+.blog .card-box .icon 
+{
+    transition: all 0.4s ease;
+}
+.blog .card:hover .card-box a,
+.blog .card:hover .card-box .icon
+{
+    color: #e5745d;
+}
+.blog .card-box a
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: #00413d;
+    font-family: "Jost", sans-serif;
+    transition: all .4s ease;
+}
+.blog .card-box i 
+{
+    margin-left: -15px;
+    margin-top: 1.5px;
+    font-size: 16px;
+}
+.blog img
+{
+    height: 350px;
+    object-fit: contain;
+}
 /* 
 |>>>>>>>===================<<<<<<<|
 |         -blog FINISHED-         |
+|>>>>>>>===================<<<<<<<|
+*/
+/*-------------------------------------------------------------------------*/
+/* 
+|>>>>>>>===================<<<<<<<|
+|          -footer START-         |
+|>>>>>>>===================<<<<<<<|
+*/
+.footer
+{
+    background: #00413d;
+    height: 474px;
+    text-align: center;
+    padding: 80px 0;
+    margin-top: 50px;
+}
+.footer .nav-footer
+{
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    padding-top: 64px;
+    padding-left: 64px;
+}
+.footer .nav-footer li
+{
+    padding-right: 33px;
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    border-right: 2px solid rgba(255, 255, 255, 0.15);
+}
+.footer .nav-footer .one,
+.footer .nav-footer .two,
+.footer .nav-footer .three,
+.footer .nav-footer .four,
+.footer .nav-footer .five,
+.footer .nav-footer .six
+{
+    padding-right: 60px;
+}
+.footer .nav-footer .six
+{
+    border-right: none;
+}
+/* 
+|>>>>>>>===================<<<<<<<|
+|        -footer FINISHED-        |
 |>>>>>>>===================<<<<<<<|
 */
 /*-------------------------------------------------------------------------*/
