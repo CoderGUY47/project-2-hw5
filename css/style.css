@@ -30,6 +30,10 @@
     padding: 0;
     margin: 0;
 }
+img
+{
+    object-fit: cover;
+}
 .box
 {
     display: flex;
@@ -806,7 +810,7 @@ for box shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255
 */
 .testimonial
 {
-    padding: 100px 0;
+    padding: 50px 0;
     margin: 100px 0;
     background: #f9f4f1;
 }
@@ -968,8 +972,6 @@ for box shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255
 }
 .testimonial .dotted
 {
-    display: flex;
-    padding-top: 30px;
     margin: 0 auto;
     width: 10%;
     gap: 0;
@@ -996,6 +998,104 @@ for box shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255
 /* 
 |>>>>>>>===================<<<<<<<|
 |     -testimonial FINISHED-      |
+|>>>>>>>===================<<<<<<<|
+*/
+/*-------------------------------------------------------------------------*/
+/* 
+|>>>>>>>===================<<<<<<<|
+|         -contact START-         |
+|>>>>>>>===================<<<<<<<|
+*/
+.contact
+{
+    margin: 110px 0 120px;
+}
+.contact img 
+{
+    width: 100%;
+    height: 590px;
+}
+.contact .title h4
+{
+    left: 9.5%;
+    font-size: 18px;
+    color: #e5745d;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+    text-align: left;
+}
+.contact .title h4::after 
+{
+    left: -9.2%;
+}
+.contact .title h4::before 
+{
+    left: -3.8%;
+}
+.contact .title h2
+{
+    font-size: 48px;
+    color: #00413d;
+    font-weight: 400;
+    font-family: "Vollkorn", serif;
+    text-align: left;
+    margin-left: 0;
+    margin-top: -10px;
+}
+.contact .box
+{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+    padding-top: 40px;
+}
+.contact input
+{
+    width: 45%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 2px solid rgba(0, 65, 61, 0.13);
+}
+.contact input:last-child
+{
+    width: 100%;
+}
+.contact input::placeholder
+{
+    font-size: 18px;
+    color: rgba(3, 96, 90, 0.635);
+    font-family: "Jost", sans-serif;
+    padding: 12px 0;
+}
+.contact input::placeholder type:hover
+{
+    border: 2px solid #e70202;
+}
+.contact .common-button
+{
+    margin-top: 57px;
+}
+.contact .common-button a::after 
+{
+    top: -16.5px;
+    left: -47.6px;
+}
+
+/* 
+|>>>>>>>===================<<<<<<<|
+|        -contact FINISHED-       |
+|>>>>>>>===================<<<<<<<|
+*/
+/*-------------------------------------------------------------------------*/
+/* 
+|>>>>>>>===================<<<<<<<|
+|          -blog START-           |
+|>>>>>>>===================<<<<<<<|
+*/
+
+/* 
+|>>>>>>>===================<<<<<<<|
+|         -blog FINISHED-         |
 |>>>>>>>===================<<<<<<<|
 */
 /*-------------------------------------------------------------------------*/
