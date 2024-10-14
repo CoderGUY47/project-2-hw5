@@ -151,10 +151,10 @@ ul,li,ol,a
 {
     padding: 20px 0;
 }
-.menu_button a
+.menu_button a 
 {
     position: relative;
-    padding: 24px 40px;
+    padding: 13px 40px;
     background: #e5745d;
     font-family: "Jost", sans-serif;
     color: #ffffff;
@@ -162,14 +162,14 @@ ul,li,ol,a
     font-weight: 500;
     text-decoration: none;
 }
-.menu_button a::after 
+.menu_button a::after
 {
     position: absolute;
-    width: 176px;
-    height: 59px;
+    width: 170px;
+    height: 40px;
     content: "";
     top: 6.5px;
-    left: 6.5px;
+    left: 9.5px;
     border: 2px solid #ffffff;
 }
 /* 
