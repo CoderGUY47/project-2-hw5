@@ -103,7 +103,7 @@ img
     width: 500px;
     font-size:48px;
     color: #00413d;
-    font-weight: 400;
+    font-weight: 600;
     font-family: "Vollkorn", serif;
     text-align: center;
     margin: 0 auto;
@@ -128,6 +128,10 @@ ul,li,ol,a
 .navbar-nav
 {
     column-gap: 50px;
+}
+.navbar-collapse
+{
+    row-gap: 20px;
 }
 .nav-link
 {
@@ -189,7 +193,6 @@ ul,li,ol,a
     padding-bottom: 400px;
     overflow: hidden;
 }
-
 .banner .overlay
 {
     position: absolute;
@@ -1063,7 +1066,7 @@ for box shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255
 .contact input::placeholder
 {
     font-size: 18px;
-    color: rgba(3, 96, 90, 0.635);
+    color: #12867f;
     font-family: "Jost", sans-serif;
     padding: 12px 0;
 }
@@ -1261,6 +1264,7 @@ for box shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255
 }
 .footer .icon-footer li
 {
+    display: flex;
     font-size: 35px;
     width: 60px;
     height: 60px;
