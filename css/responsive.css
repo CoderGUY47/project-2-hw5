@@ -3575,6 +3575,7 @@
     .container
     {
         overflow: hidden;
+        padding-bottom: 30px;
     }
 
 
